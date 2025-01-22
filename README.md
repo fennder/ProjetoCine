@@ -13,7 +13,7 @@
 </p>
 
 ```
-git --version // testo para teste
+git --version
 ```
 <p align="center">
     <img src="docs/images/GitVersion.png" width="400">
@@ -32,4 +32,17 @@ git push -u origin master or main
 ```
 
 ## CAPITULO 2 - Criando repositorio no git
-### 
+### Criando Projeto
+
+<p align="justify">
+    Acesse o [GitHub](https://github.com/) no navegador.
+</p>
+<p align="center">
+    <a href="https://github.com/" target="_blank">
+        <img src="docs/images/GitHub.png" width="400">
+    </a>
+</p>
+
+<p align="justify">
+
+</p>
