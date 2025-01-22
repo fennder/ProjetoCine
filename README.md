@@ -9,21 +9,17 @@
 git --version
 ```
 
-
 ### Comandos administrativos do GIT
 
 ```
 git status
-```
-`
+
 git add index.html or git add .
-`
-`
+
 git commit -m "Mensagem do desenvolvedor" ex: "Update file README"
-`
-`
+
 git push -u origin master or main
-`
+```
 ## CAPITULO 2 - Criando repositorio no git
 ### 
 
