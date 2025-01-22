@@ -12,9 +12,9 @@ git --version
 
 ### Comandos administrativos do GIT
 
-`
+```
 git status
-`
+```
 `
 git add index.html or git add .
 `
