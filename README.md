@@ -2,7 +2,7 @@
 ## CAPITULO 1 - Configuração do git no computador
 ### Instalação do GIT 
 <p align="center">
-    <a href="https://git-scm.com/book/pt-br/v2/Come%C3%A7ando-Instalando-o-Git" target="_blank"><![Instalar o GIt](docs/images/README.png)></a>
+    <a href="https://git-scm.com/book/pt-br/v2/Come%C3%A7ando-Instalando-o-Git" target="_blank"><img src="docs/images/README.png" width="400"></a>
 </p>
 
 `
