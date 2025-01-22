@@ -13,7 +13,7 @@
 </p>
 
 ```
-git --version
+git --version // testo para teste
 ```
 <p align="center">
     <img src="docs/images/GitVersion.png" width="400">
