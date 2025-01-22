@@ -1,9 +1,13 @@
 # MANUAL DE UTILIZAÇÃO DO SISTEMA/SITE
 ## CAPITULO 1 - Configuração do git no computador
 ### Instalação do GIT 
+
+<p align="justify">
+    Realize a busca do termo [Instalar GIT](https://git-scm.com/book/pt-br/v2/Come%C3%A7ando-Instalando-o-Git) para Windows.
+</p>
+
 <p align="center">
     <a href="https://git-scm.com/book/pt-br/v2/Come%C3%A7ando-Instalando-o-Git" target="_blank">
-        (https://git-scm.com/book/pt-br/v2/Come%C3%A7ando-Instalando-o-Git)
         <img src="docs/images/Git.png" width="400">
     </a>
 </p>
