@@ -43,6 +43,8 @@ git push -u origin master or main
     </a>
 </p>
 
-<p align="justify">
+### Processo de clone do projeto
 
+<p align="justify">
+    Foi necessario realizar toda a configuração.
 </p>
