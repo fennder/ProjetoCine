@@ -46,9 +46,12 @@ git --version
 
     Após, identificação de usuário gerar a chave púlica para autorizar a troca de arquivos entre GIT e Sistema Operacional.
 
+</p>
+
     ```
     ssh-keygen
     ```
+<p>
     Gerando a 
 
 </p>
