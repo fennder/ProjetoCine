@@ -29,7 +29,7 @@ git --version
 
 ### 4. Credenciando GIT no Windows
 
-<p>
+<p align="justify">
     Após realizar a instalação é necessário identificar qual usuário irá ser utilizado para versionar os arquivos.
     Para realizar o creenciamento do GIT no Windows faça:
 
@@ -42,7 +42,7 @@ git --version
     
     ```
 
-<p>
+<p align="justify">
 
     Após, identificação de usuário gerar a chave púlica para autorizar a troca de arquivos entre GIT e Sistema Operacional.
 
@@ -51,7 +51,7 @@ git --version
     ```
     ssh-keygen
     ```
-<p>
+<p align="justify">
     Gerando a 
 
 </p>
