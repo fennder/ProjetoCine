@@ -1,29 +1,51 @@
 <!DOCTYPE html>
+<!--DOCTYPE html = "Este termo é utilizado para idetnificar o tipo deste arquivo" -->
 <html lang="pt-br">
+<!-- Inicio da html lang="pt-br" = ""-->
+<!-- Inicio da HEAD = ""-->
 <head>
     <meta charset="UTF-8">
+    <!-- Inicio da meta charset = ""-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Inicio da meta name="viewport" = ""-->
     <meta name="description" content="InfoCinema: Descubra os maiores clássicos do cinema e mergulhe em histórias épicas que marcaram gerações.">
+    <!-- Inicio da meta name="description" = ""-->
     <meta name="keywords" content="filmes, cinema, clássicos, entretenimento, histórias épicas">
+    <!-- Inicio da meta name="keywords" = ""-->
     <meta name="author" content="InfoCinema Team">
+    <!-- Inicio da meta name="author" = ""-->
     <title>InfoCinema</title>
+    <!-- Inicio da title = ""-->
     <link rel="stylesheet" type="text/css" href="/css/styles.css">
+    <!-- Inicio da link = ""-->
 </head>
+<!-- Fim da HEAD -->
 <body>
+    <!-- Inicio da HEADER -->
     <header>
+        <!-- Inicio da H1 -->
         <h1>InfoCinema</h1>
+        <!-- P -->
         <p>O seu portal para explorar os maiores clássicos do cinema.</p>
     </header>
-
+    <!-- Fim da HEADER -->
+    
+    <!-- Inicio da div class="container" = ""-->
     <div class="container">
+        <!-- Inicio da section class="intro" = ""-->
         <section class="intro">
             <h2>Sobre o InfoCinema</h2>
             <p>O InfoCinema é um site dedicado aos amantes da sétima arte. Nosso objetivo é celebrar os filmes que marcaram a história do cinema e apresentar as histórias épicas, personagens inesquecíveis e momentos cinematográficos que continuam a inspirar gerações. Aqui você encontrará informações e curiosidades sobre os maiores clássicos do cinema.</p>
         </section>
-
+        <!-- Fim da section class="intro" -->
+        
+        <!-- Inicio da section class="category" = "" -->
         <section class="category">
+            <!-- H2 = "" -->
             <h2>Filmes Clássicos</h2>
+            <!-- Inicio da div class="grid" = "" -->
             <div class="grid">
+                <!-- Inicio da div class="card" = "" -->
                 <div class="card">
                     <a href="https://www.youtube.com/watch?v=owK1qxDselE" target="_blank">
                         <img src="https://upload.wikimedia.org/wikipedia/pt/4/44/GladiadorPoster.jpg" alt="Gladiador">
@@ -31,7 +53,8 @@
                     <h3>Gladiador (2000)</h3>
                     <p>Um épico dirigido por Ridley Scott, que narra a trajetória de Maximus, um general traído que busca justiça e vingança enquanto se torna um gladiador em Roma.</p>
                 </div>
-
+                <!-- Fim da div class="card" -->
+                
                 <div class="card">
                     <a href="https://www.youtube.com/watch?v=Pki6jbSbXIY" target="_blank">
                         <img src="https://upload.wikimedia.org/wikipedia/pt/thumb/3/38/Lord_of_the_Rings_Fellowship_of_the_Ring.jpg/250px-Lord_of_the_Rings_Fellowship_of_the_Ring.jpg" alt="O Senhor dos Anéis: A Sociedade do Anel">
@@ -39,7 +62,7 @@
                     <h3>O Senhor dos Anéis: A Sociedade do Anel (2001)</h3>
                     <p>O primeiro capítulo da trilogia épica dirigida por Peter Jackson, onde Frodo e seus amigos embarcam em uma jornada para destruir o Um Anel.</p>
                 </div>
-
+                
                 <div class="card">
                     <a href="https://www.youtube.com/watch?v=sY1S34973zA" target="_blank">
                         <img src="https://ingresso-a.akamaihd.net/prd/img/movie/o-poderoso-chefao-50-anos/008274f7-a76d-484f-8b5b-1c639c2ce46b.jpg" alt="O Poderoso Chefão">
@@ -57,32 +80,37 @@
                 </div>
             </div>
         </section>
-
+        
         <section class="form-section">
-          <h2>Cadastre-se para acessar mais mídias</h2>
-          <form>
-              <label for="name">Nome Completo:</label>
-              <input type="text" id="name" name="name" placeholder="Seu nome" required>
-      
-              <label for="email">E-mail:</label>
-              <input type="email" id="email" name="email" placeholder="Seu e-mail" required>
-      
-              <label for="favorite-movie">Filme Favorito:</label>
-              <input type="text" id="favorite-movie" name="favorite-movie" placeholder="Seu filme favorito" required>
-      
-              <button type="submit">Cadastrar</button>
-          </form>
-          <div id="user-list">
-              <h3>Usuários Cadastrados:</h3>
-              <ul></ul>
-          </div>
-      </section>
-      
+            <h2>Cadastre-se para acessar mais mídias</h2>
+            <form>
+                <label for="name">Nome Completo:</label>
+                <input type="text" id="name" name="name" placeholder="Seu nome" required>
+                
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" name="email" placeholder="Seu e-mail" required>
+                
+                <label for="favorite-movie">Filme Favorito:</label>
+                <input type="text" id="favorite-movie" name="favorite-movie" placeholder="Seu filme favorito" required>
+                
+                <button type="submit">Cadastrar</button>
+            </form>
+            <div id="user-list">
+                <h3>Usuários Cadastrados:</h3>
+                <ul></ul>
+            </div>
+        </section>
+        
     </div>
-
+    <!-- Fim da div class="container" -->
+    
+    <!-- Inicio da FOOTER -->
     <footer>
         <p>InfoCinema &copy; 2024. Todos os direitos reservados.</p>
     </footer>
+    <!-- Fim da FOOTER -->
     <script src="/js/script.js"></script>
 </body>
+<!-- Fim da BODY -->
 </html>
+<!-- Fim da HTML -->
