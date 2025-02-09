@@ -1,0 +1,19 @@
+.meu-botao {
+    background-color: #4CAF50; /* Cor de fundo inicial */
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 400px 400px;
+    cursor: pointer;
+    border-radius: 5px; /* Bordas arredondadas */
+    transition: background-color 0.5s, transform 0.3s; /* Transições para cor e escala */
+}
+
+.meu-botao:hover {
+    background-color: #3e8e41; /* Cor de fundo ao passar o mouse */
+    transform: scale(2.1); /* Aumenta a escala em 10% */
+}
