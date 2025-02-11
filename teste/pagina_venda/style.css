@@ -5,6 +5,11 @@
     text-decoration: none;
 }
 
+body{
+    font-family: sans-serif;
+    margin: 20px;
+}
+
 #produtos{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
@@ -18,22 +23,8 @@
 }
 
 .produto img{
-    max-width: 150px;
+    max-width: 100%;
     height: auto;
-    margin-top: 10px;
-}
-
-.produto button{
-    background-color: blue;
-    border: none;
-    color: white;
-    padding: 8px 16px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 4px 2px;
-    cursor: pointer;
 }
 
 #carrinho {
@@ -42,38 +33,5 @@
 }
 
 #carrinho li{
-    display: flex;
-    align-items: center;
-    margin-bottom: 5px;
-    border-bottom: 1px solid #eee;
-    padding-bottom: 5px;
+   margin-bottom: 10px;
 }
-
-#carrinho li span{
-    flex-grow: 1;
-    margin-right: 10px;
-}
-
-#carrinho li button{
-    background-color: aquamarine;
-    border: none;
-    color: white;
-    padding: 4px 8px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 12px;
-    margin-left: 5px;
-    cursor: pointer;
-}
-
-#total{
-    margin-top: 20px;
-    font-weight: bold;
-}
-
-body{
-    font-family: sans-serif;
-    margin: 20px;
-}
-

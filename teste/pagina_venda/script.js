@@ -8,7 +8,7 @@ const produtosDiv = document.getElementById("produtos");
 const carrinhoLista = document.getElementById("carrinho");
 const totalSpan = document.getElementById("total");
 
-const carrinho = [];
+let carrinho = [];
 
 //Função para exibir os produtos na Tela
 function exibirProdutos(){
@@ -19,7 +19,7 @@ function exibirProdutos(){
             <img src="${produto.imagem}" alt="${produto.nome}">
             <h3>${produto.nome}</h3>
             <p>Preço: R$ ${produto.preco.toFixed(2)}</p>
-            <button onclik="adicionarAoCarrinho('${produto.nome}', ${produto.preco})">
+            <button onclik="adicionarAoCarrinho('${produto.nome}', ${produto.preco})">Adicionar ao Carrinho</button>
         `;
         produtoDiv.appendChild(produtoDiv);
     });
@@ -31,13 +31,19 @@ function adicionarAoCarrinho(nome, preco){
     atualizarCarrinho();
 }
 
+function removerDoCarrinho(index){
+    carrinho.splice(index, 1);
+    atualizarCarrinho();
+}
+
 //Função pra atualizar a exibição do carrinho e o total
 function atualizarCarrinho(){
     carrinhoLista.innerHTML = "";
     let total = 0;
-    carrinho.forEach(item =>{
+    carrinho.forEach((item, index ) => {
         const itemLista = document.createElement("li");
-        itemLista.textContent = `${item.nome} - R$ ${item.preco.toFixed(2)}`;
+        itemLista.innerHTML = `${item.nome} - R$ ${item.preco.toFixed(2)}
+        <button onclick="removerDoCarrinho(${index})">Remover</button>`;
         carrinhoLista.appendChild(itemLista);
         total += item.preco;
     });
