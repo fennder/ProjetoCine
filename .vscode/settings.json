@@ -1,3 +1,4 @@
 {
-    "livePreview.defaultPreviewPath": "/pages/semantica.html"
+    "livePreview.defaultPreviewPath": "/pages/semantica.html",
+    "liveServer.settings.port": 5501
 }
