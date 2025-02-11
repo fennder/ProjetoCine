@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+#produtos{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.produto{
+    width: 200px;
+    margin: 10px;
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+.produto img{
+    width: 100%;
+}
+
+#carrinho {
+    list-style: none;
+    padding: 0;
+}
+
+#carrinho li {
+    margin-bottom: 5px;
+}
+

@@ -7,7 +7,7 @@
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
-    margin: 400px 400px;
+    margin: 20px 200px;
     cursor: pointer;
     border-radius: 5px; /* Bordas arredondadas */
     transition: background-color 0.5s, transform 0.3s; /* Transições para cor e escala */
@@ -16,4 +16,68 @@
 .meu-botao:hover {
     background-color: #3e8e41; /* Cor de fundo ao passar o mouse */
     transform: scale(2.1); /* Aumenta a escala em 10% */
+}
+
+.secao-form{
+    background: #2806e9;
+    padding: 20px;
+    border: 1px solid #444;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+    max-width: 500px;
+    margin: 20px auto;
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form label {
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #aab9aa;
+}
+
+form input {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 2px solid #666;
+    border-radius: 10px;
+    background-color: #6583e7;
+    color: #e4e4e4;
+    font-size: 16px;
+    transition: border-color 0.3s;
+}
+
+form input:focus {
+    border-color: #f39c12;
+    outline: none;
+}
+
+form button {
+    padding: 10px;
+    background-color: #1052cc;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.03s transform 0.3s;
+}
+
+form button:hover{
+    background-color: #3e8e41;
+    transform: scale(1.1);
+}
+
+.resultado_soma{
+    color: #e4e4e4;
+    font-size: 20px;
+}
+
+h1 {
+    color: #aab9aa;
+    font-size:16;
 }
