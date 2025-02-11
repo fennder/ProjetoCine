@@ -1,14 +1,14 @@
 const produtos = [
-    {nome: "Produto 1", preco: 10.00, imagem: "/image/produto1.jpg"},
-    {nome: "Produto 2", preco: 15.00, imagem: "/image/produto2.jpg"},
-    {nome: "Produto 3", preco: 25.00, imagem: "/image/produto3.png"}
+    {nome: "Produto 1", preco: 10.00, imagem: "produto1.jpg"},
+    {nome: "Produto 2", preco: 15.00, imagem: "produto2.jpg"},
+    {nome: "Produto 3", preco: 25.00, imagem: "produto3.png"}
 ];
-
-const carrinho = [];
 
 const produtosDiv = document.getElementById("produtos");
 const carrinhoLista = document.getElementById("carrinho");
 const totalSpan = document.getElementById("total");
+
+const carrinho = [];
 
 //Função para exibir os produtos na Tela
 function exibirProdutos(){
@@ -37,6 +37,12 @@ function atualizarCarrinho(){
     let total = 0;
     carrinho.forEach(item =>{
         const itemLista = document.createElement("li");
-        
+        itemLista.textContent = `${item.nome} - R$ ${item.preco.toFixed(2)}`;
+        carrinhoLista.appendChild(itemLista);
+        total += item.preco;
     });
+    totalSpan.textContent = `Total: R$ ${total.toFixed(2)}`;
 }
+
+//Inicializa a exibição dos produtos
+exibirProdutos();
